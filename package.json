@@ -43,5 +43,8 @@
     "universal": "napi universal",
     "version": "napi version"
   },
-  "packageManager": "yarn@4.2.2"
+  "packageManager": "yarn@4.2.2",
+  "repository": {
+    "url": "https://github.com/strPurpleEmperor/zip-plugin"
+  }
 }
