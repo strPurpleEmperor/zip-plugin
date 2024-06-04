@@ -11,5 +11,9 @@
   "license": "MIT",
   "engines": {
     "node": ">= 10"
+  },
+  "repository": {
+    "url": "https://github.com/strPurpleEmperor/zip-plugin.git",
+    "type": "git"
   }
 }

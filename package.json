@@ -45,7 +45,7 @@
   },
   "packageManager": "yarn@4.2.2",
   "repository": {
-    "url": "https://github.com/strPurpleEmperor/zip-plugin",
+    "url": "https://github.com/strPurpleEmperor/zip-plugin.git",
     "type": "git"
   }
 }
