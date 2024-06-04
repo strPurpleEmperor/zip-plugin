@@ -1,0 +1,15 @@
+{
+  "name": "@zyss/zip-plugin-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "zip-plugin.darwin-universal.node",
+  "files": [
+    "zip-plugin.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
