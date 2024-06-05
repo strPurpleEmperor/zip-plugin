@@ -24,9 +24,9 @@ fn run(folder_path:&str, out_name: &str) -> io::Result<()> {
         if file_path.is_dir() {
             continue;
         }
-        // 添加文件到压缩文件中，并将文件路径更改为"offline"
-        let offline_path = format!("/{}", file_name);
-        zip.start_file(folder_path.to_owned() + &*offline_path, options)?;
+
+        // 添加文件到压缩文件中
+        zip.start_file(file_name, options)?;
         let mut file_reader = File::open(file_path)?;
         io::copy(&mut file_reader, &mut zip)?;
     }
