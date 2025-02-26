@@ -165,7 +165,8 @@ jobs:
           environment_variables: DEBUG RUSTUP_IO_THREADS
           shell: bash
           run: |
-            sudo pkg install -y -f curl node libnghttp2 npm libcxx # 新增libcxx
+            pkg update
+            sudo pkg install clang  # clang 可能会包含所需的 libcxx 支持
             sudo pkg install -y -f curl node libnghttp2 npm
             sudo npm install -g yarn --ignore-scripts
             curl https://sh.rustup.rs -sSf --output rustup.sh
